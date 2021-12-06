@@ -1,0 +1,63 @@
+html.happyforms-form--part-value-text-align-center body {
+    text-align: center;
+}
+
+html.happyforms-form--part-value-text-align-right body {
+    text-align: right;
+}
+
+body {
+    padding: 10px;
+    font-size: 16px;
+    font-size: var(--happyforms-part-value-font-size);
+    background: transparent !important;
+    color: #000;
+    color: var(--happyforms-color-part-value);
+}
+
+html.happyforms-form--part-inner-padding-wide body {
+    padding-top: 15px;
+}
+
+p, strong, em, ul, ol, li, blockquote, pre {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent !important;
+    color: #000;
+    color: var(--happyforms-color-part-value);
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul:before, ul:after, li:before, li:after {
+    content: '';
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+strong {
+    font-weight: bold !important;
+}
+
+em {
+    font-style: italic !important;
+}
+
+ul, ol, blockquote {
+    margin: 20px 0;
+    padding-left: 40px;
+    font-size: 16px;
+    font-size: var(--happyforms-part-value-font-size) !important;
+}

@@ -1,0 +1,214 @@
+/**
+ *
+ * Post/Page editor modal
+ *
+ */
+#TB_window.happyforms-admin-modal {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#TB_window.happyforms-admin-modal #TB_title {
+    position: relative;
+    height: 35px;
+    padding: 0 15px;
+}
+
+#TB_window.happyforms-admin-modal #TB_ajaxContent {
+    padding: 45px 15px;
+    overflow: hidden;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+    box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+}
+
+#TB_window.happyforms-admin-modal #TB_closeWindowButton {
+    top: 4px;
+}
+
+#TB_window.happyforms-admin-modal #TB_closeWindowButton:focus .tb-close-icon {
+    box-shadow: none;
+    color: #666;
+}
+
+/**
+ *
+ * Upgrade modal
+ *
+ */
+a.happyforms-modal__dismiss {
+  box-sizing:  border-box;
+}
+
+.happyforms-modal__frame--upgrade .happyforms-modal__header h1 {
+    margin-bottom: 30px;
+}
+
+.happyforms-modal__frame--upgrade .happyforms-modal__content {
+    padding-bottom: 30px;
+}
+
+.happyforms-modal__frame--upgrade .happyforms-modal__content p {
+    margin-bottom: 0;
+}
+
+.happyforms-modal__frame--upgrade a.button {
+    padding: 11px 22px;
+    height: auto;
+    font-size: 14px;
+    white-space: normal;
+    text-align: center;
+}
+
+.happyforms-modal__frame--upgrade a.happyforms-continue-link,
+.happyforms-modal__frame--upgrade a.happyforms-continue-link:hover {
+    color: #82878C;
+}
+
+/**
+ *
+ * Upgrade modal
+ *
+ */
+.happyforms-modal__frame--upgrade .happyforms-modal__content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.happyforms-modal__frame--upgrade a.button + p {
+    text-align: center;
+}
+
+/**
+ *
+ * Onboarding modal
+ *
+ */
+.happyforms-modal__frame--onboarding .happyforms-modal__body {
+    padding-top: 330px;
+    background-image: url(http://starlightnc.github.io/Danir_is_doing_website/wp-content/plugins/happyforms/inc/assets/img/welcome.gif);
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+
+.happyforms-modal__frame--onboarding .happyforms-modal__dismiss:hover svg {
+  fill: #fff;
+}
+
+.happyforms-modal__frame--onboarding .happyforms-modal__heading h1 {
+    margin-bottom: 8px;
+}
+
+.happyforms-modal__frame--onboarding .happyforms-modal__content form label[for="happyforms-onboarding-byline-optin"] {
+    display: flex;
+    align-items: start;
+    margin-bottom: 0;
+}
+
+.happyforms-modal__frame--onboarding .happyforms-modal__content form label[for="happyforms-onboarding-byline-optin"] span {
+    line-height: 1.4;
+}
+
+.happyforms-modal__frame--onboarding .happyforms-modal__content form label[for="happyforms-onboarding-byline-optin"] input {
+    margin-top: 1px;
+    margin-right: 6px;
+}
+
+.happyforms-modal__frame--onboarding button[type="submit"] + p {
+    font-size:8px;
+    color:#757575;
+}
+
+.happyforms-form__part .happyforms-part__label .happyforms-required {
+  display: none;
+}
+
+.happyforms-form__part[data-happyforms-required] .happyforms-part__label .happyforms-required {
+  display: inline-block;
+}
+
+.post-type-happyforms-activity .page-title-action {
+    display: none;
+}
+
+body.post-type-happyforms-activity .fixed .column-contact {
+    width: 20%;
+}
+
+.fixed .column-form {
+    width: 15%;
+}
+
+.fixed .column-datetime {
+    width: 14%;
+}
+
+.hf-pwd input.happyforms-credentials-input {
+    font-family: Consolas,Monaco,monospace;
+}
+
+.hf-pwd {
+    position: relative;
+    margin: 0 0 1em;
+}
+
+.hf-pwd:last-of-type {
+    margin: 0;
+}
+
+.hf-pwd:last-child {
+    margin: 0 0 1em;
+}
+
+.wp-core-ui #happyforms-integrations-screen form .hf-pwd + p {
+    margin-top: 1em !important;
+}
+
+.hf-pwd input.happyforms-credentials-input {
+    padding-right: 2.5rem;
+}
+
+.hf-pwd > button.hf-hide-pw {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent !important;
+    width: 2.1rem;
+    min-width: 25px;
+    min-height: auto;
+    height: calc(100% - 2px);
+    margin: 0;
+    padding: 5px 9px 5px 7px;
+    font-size: 14px;
+    line-height: 2;
+    box-shadow: none;
+    background: transparent !important;
+    vertical-align: middle;
+}
+
+button.hf-hide-pw:focus {
+    background: transparent !important;
+    border-color: #3582c4;
+    box-shadow: 0 0 0 1px #3582c4 !important;
+    outline: 2px solid transparent !important;
+}
+
+button.hf-hide-pw .dashicons {
+    width: 1.25rem;
+    height: 1.25rem;
+    font-size: 18px;
+}

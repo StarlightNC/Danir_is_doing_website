@@ -1,0 +1,276 @@
+.customize-control-ast-selector .ast-alignment-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.customize-control-ast-selector .ast-alignment-inner-wrap,
+.customize-control-ast-selector .ast-selector-responsive-wrap {
+    display: none;
+}
+
+.customize-control-ast-selector .ast-alignment-wrapper .ast-alignment-inner-wrap.active {
+    flex: 1 1 auto;
+    display: flex;
+}
+.customize-control-ast-selector .components-button.has-icon {
+    padding: 6px;
+    min-width: 36px;
+    justify-content: center;
+}
+.ast-alignment-inner-wrap .components-button {
+    white-space: nowrap;
+    background: rgba(255,255,255,0);
+    color: rgba(0, 0, 0, 0.966);
+    text-decoration: none;
+    text-shadow: none;
+    outline: unset;
+    border: 1px solid #d2d2d2;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    border-radius: unset;
+    transition: none;
+}
+.ast-alignment-inner-wrap.active .components-button.is-primary {
+    color: #ffffff;
+    background: #007cba;
+}
+.customize-control-ast-selector .ast-alignment-wrapper .ast-alignment-inner-wrap.active .components-button:not(.is-primary):hover {
+    color: #000 !important;
+    background: rgba(255,255,255,0);
+}
+
+.customize-control-ast-selector .components-button .ahfb-icon-set svg {
+    width: 16px;
+    height: 16px;
+    fill: black;
+}
+.customize-control-ast-selector .components-button.is-primary .ahfb-icon-set svg,
+.customize-control-ast-selector .components-button.is-primary .ahfb-icon-set svg circle,
+.customize-control-ast-selector .components-button.is-primary .ahfb-icon-set svg path:not(.ast-hf-account-unfill) {
+    fill: #ffffff;
+}
+
+.customize-control-ast-selector .ast-alignment-inner-wrap:first-child .components-button {
+    border-radius: 2px 0px 0px 2px;
+}
+.customize-control-ast-selector .ast-alignment-inner-wrap:last-child .components-button {
+    border-radius: 0px 2px 2px 0px;
+}
+.ast-alignment-wrapper .ast-alignment-inner-wrap:not(:first-child) .components-button {
+    margin-left: -1px;
+}
+
+.ast-alignment-wrapper .ast-alignment-inner-wrap:not(:first-child):not(:last-child) .components-button{
+    border-right: none;
+}
+
+.customize-control-ast-selector .ast-alignment-inner-wrap .components-button {
+    border-radius: unset;
+    font-size: 12px;
+    padding: 8px 12px;
+}
+.customize-control-ast-selector .ast-selector-responsive-wrap.active {
+    display: flex;
+    flex: 1 1 0;
+}
+.customize-control-ast-selector .ast-responsive-btns {
+    position: absolute;
+    right: 0;
+}
+.customize-control-ast-selector .ast-alignment-inner-wrap .components-button:focus:not(:disabled) {
+    box-shadow: none;
+}
+.customize-control-ast-selector .components-button .ahfb-icon-set {
+    display: flex;
+}
+.customize-control-ast-selector {
+    margin-bottom: 1px;
+}
+
+#customize-controls .customize-control-notifications-container {
+  margin: 0;
+}
+
+.customize-control-ast-background .screen-reader-text {
+  top: initial;
+}
+
+.customize-control-ast-background .background-container h4 {
+  font-weight: normal;
+}
+
+.customize-control-ast-background .background-attachment h4, .customize-control-ast-background .background-color h4, .customize-control-ast-background .background-position h4, .customize-control-ast-background .background-repeat h4, .customize-control-ast-background .background-size h4 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.customize-control-ast-background .background-color {
+  margin-bottom: 12px;
+}
+
+.customize-control-ast-background .background-repeat {
+  margin: 15px 0 8px 0;
+}
+
+.customize-control-ast-background .background-attachment .buttonset, .customize-control-ast-background .background-size .buttonset {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customize-control-ast-background .background-attachment .buttonset .switch-label, .customize-control-ast-background .background-size .buttonset .switch-label {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #555;
+  padding: 2px 4px;
+  margin-right: 15px;
+  text-align: center;
+  flex-grow: 1;
+  transition: background-color 140ms linear;
+}
+
+.customize-control-ast-background .background-attachment .buttonset .switch-label:last-child, .customize-control-ast-background .background-size .buttonset .switch-label:last-child {
+  margin-right: 0;
+}
+
+.customize-control-ast-background .background-attachment .buttonset .switch-input:checked + .switch-label, .customize-control-ast-background .background-size .buttonset .switch-input:checked + .switch-label, .customize-control-ast-background .background-attachment .buttonset .switch-input[checked="checked"] + .switch-label, .customize-control-ast-background .background-size .buttonset .switch-input[checked="checked"] + .switch-label {
+  background-color: #f5f5f5;
+  color: #565e67;
+}
+
+.customize-control-ast-background .ast-bg-img-remove.components-button.is-link {
+  width: 100%;
+  border: 1px dashed #b4b9be;
+  box-sizing: border-box;
+  box-shadow: unset;
+  padding: 9px 0;
+  line-height: 1.6;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.customize-control-ast-background .ast-bg-img-remove.components-button.is-destructive:hover:not(:disabled) {
+  color: #a02222;
+  box-shadow: unset;
+  border-color: #a02222;
+}
+
+.customize-control-ast-background .more-settings {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0 5px 0;
+  cursor: pointer;
+  float: none;
+  text-decoration: none;
+}
+
+.customize-control-ast-background .more-settings:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.customize-control-ast-background .arrow-icon {
+  margin-left: 5px;
+}
+
+.customize-control-ast-background .customize-control-title {
+  display: block;
+}
+
+.customize-control-ast-background .astra-color-picker-wrap {
+  margin-top: 18px;
+}
+
+.ast-field-settings-modal .customize-control-ast-background.customize-control:first-child, .ast-field-settings-modal .customize-control-ast-background.customize-control {
+  margin-top: 28px;
+}
+
+.ast-field-settings-modal .customize-control-ast-background .more-settings {
+  margin-top: 6px;
+}
+
+.ast-field-settings-modal .customize-control-ast-background .customize-control-content .ast-color-btn-reset-wrap {
+  right: 59px;
+}
+
+.ast-field-settings-modal .customize-control-ast-background .customize-control-content .color-button-wrap {
+  right: 16px;
+}
+
+.ast-field-settings-modal .customize-control-ast-background .astra-popover-tabs .ast-clear-btn-inside-picker.components-button {
+  margin: 5px 20px 20px 10px;
+}
+
+.customize-control-ast-border {
+  /* Unit Screen wrap */
+}
+
+.customize-control-ast-border .customize-control-title {
+  display: inline-block;
+}
+
+.customize-control-ast-border .ast-border-outer-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.customize-control-ast-border .ast-border-wrapper {
+  display: flex;
+}
+
+.customize-control-ast-border .ast-border-btns {
+  display: block;
+  text-align: center;
+  line-height: 2;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  border-radius: 0 3px 3px 0;
+}
+
+.customize-control-ast-border .ast-border-btns > li {
+  margin-bottom: 0;
+  display: none;
+  width: 35px;
+  height: 26px;
+}
+
+.customize-control-ast-border .ast-border-btns > li.active {
+  display: inline-block;
+}
+
+.customize-control-ast-border .ast-border-btns button[type="button"] {
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  border: none;
+  opacity: .75;
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+.customize-control-ast-border .ast-border-btns button[type="button"] > i {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  margin-top: 1px;
+}
+
+.customize-control-ast-border .input-wrapper .ast-border-wrapper {
+  display: none;
+}
+
+.customize-control-ast-border .input-wrapper .ast-border-wrapper li {
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+  margin: 0 2px;
+}
+.customize-control-ast-border .input-wrapper .ast-border-wrapper li:nth-child(1) {
+  margin-left: 0px;
+}
+.customize-control-ast-

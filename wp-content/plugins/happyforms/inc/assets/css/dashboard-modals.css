@@ -1,0 +1,89 @@
+/**
+ *
+ * Onboarding and upgrade modals
+ *
+ */
+.happyforms-modal--onboarding,
+.happyforms-modal--upgrade {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.happyforms-modal--onboarding .components-guide__page,
+.happyforms-modal--upgrade .components-guide__page {
+  justify-content: flex-start;
+}
+
+.happyforms-modal--onboarding .happyforms-modal__header,
+.happyforms-modal--onboarding .happyforms-modal__body,
+.happyforms-modal--upgrade .happyforms-modal__header,
+.happyforms-modal--upgrade .happyforms-modal__body {
+  padding: 24px 32px 0;
+}
+
+.happyforms-modal--onboarding .happyforms-modal__body,
+.happyforms-modal--upgrade .happyforms-modal__body {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.happyforms-modal--onboarding img,
+.happyforms-modal--upgrade img {
+  display: block;
+}
+
+.happyforms-modal--onboarding h1,
+.happyforms-modal--upgrade h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 8px 0;
+}
+
+.happyforms-modal--upgrade h1 {
+  margin-bottom: 0;
+}
+
+.happyforms-modal--onboarding label {
+  display: block;
+  margin: 0 0 4px;
+}
+
+.happyforms-modal--onboarding .happyforms-modal__header p,
+.happyforms-modal--onboarding .happyforms-modal__body p,
+.happyforms-modal--upgrade .happyforms-modal__header p,
+.happyforms-modal--upgrade .happyforms-modal__body p {
+  margin: 0;
+}
+
+.happyforms-modal--onboarding .happyforms-radio-label {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.happyforms-modal--upgrade .happyforms-modal__body ul {
+  margin: 16px 0;
+  list-style: disc inside;
+}
+
+.happyforms-modal--onboarding .components-base-control__field .components-button,
+.happyforms-modal--upgrade .components-base-control__field .components-button {
+  width: 100%;
+  justify-content: center;
+}
+
+.happyforms-modal--upgrade .components-base-control__field .components-button.is-primary {
+  margin-bottom: 10px;
+}
+
+.happyforms-modal--onboarding .components-guide__footer,
+.happyforms-modal--upgrade .components-guide__footer {
+  display: none;
+}
+
+.happyforms-modal--onboarding .happyforms-modal__footer,
+.happyforms-modal--upgrade .happyforms-modal__footer {
+  padding: 0 32px 32px;
+}

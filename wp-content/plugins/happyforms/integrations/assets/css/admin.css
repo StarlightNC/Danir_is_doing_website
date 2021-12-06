@@ -1,0 +1,128 @@
+#happyforms-integrations-screen {
+    pointer-events:  none;
+}
+
+#happyforms-integrations-screen .widgets-holder-wrap {
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+#happyforms-integrations-screen .widget {
+    max-width: 100%;
+    margin: 0 0 10px;
+}
+
+#happyforms-integrations-screen .widget .ui-sortable-handle {
+    cursor: auto;
+}
+
+#happyforms-integrations-screen .widget .widget-top {
+    cursor: default;
+}
+
+#happyforms-integrations-screen .widget-content label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+#happyforms-integrations-screen .widget p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#happyforms-integrations-screen .widget .in-widget-title {
+    position: relative;
+    margin-left: 5px;
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+#happyforms-integrations-screen .widget .in-widget-title:before {
+    content: "\f12a";
+    position: absolute;
+    left: 0;
+    padding-right: 3px;
+    font-family: dashicons;
+    vertical-align: middle;
+}
+
+#happyforms-integrations-screen .widget .widget-control-actions {
+    margin-top: 15px;
+}
+
+#happyforms-integrations-screen .widget .widget-control-actions a {
+    font-style: normal;
+}
+
+#happyforms-integrations-screen .widget .preview {
+    float: none;
+    color: #A0A5AA;
+}
+
+#happyforms-integrations-screen .nested-block {
+    display: none;
+    margin: -10px 0 15px 8px;
+    padding: 5px 0 5px 15px;
+    border-left: 1px solid #ccc;
+}
+
+#happyforms-integrations-screen .nested-block p:last-child {
+    margin-bottom: 0;
+}
+
+#happyforms-integrations-screen .enabled .nested-block {
+    display: block;
+}
+
+#happyforms-integrations-screen .sidebar-content {
+    padding: 0 2px 15px;
+}
+
+.wp-core-ui #happyforms-integrations-screen select {
+    max-width: 100%;
+}
+
+#widgets-right .widgets-holder-wrap .happyforms-service-integration p.description:first-of-type {
+    padding: 0;
+}
+
+#happyforms-service-aweber .widget-content.authenticated .oauth-flow {
+    display: none;
+}
+
+#happyforms-service-aweber .widget-content:not(.authenticated) .oauth-connected {
+    display: none;
+}
+
+#happyforms-service-mailpoet .widget-content p {
+    margin-bottom: 0;
+}
+
+.happyforms-stripe-block,
+.happyforms-paypal-block {
+    display: none;
+}
+
+#happyforms-service-stripe[data-active-mode="live"] .happyforms-stripe-block-live,
+#happyforms-service-stripe[data-active-mode="test"] .happyforms-stripe-block-test,
+#happyforms-service-paypal[data-active-mode="live"] .happyforms-paypal-block-live,
+#happyforms-service-paypal[data-active-mode="sandbox"] .happyforms-paypal-block-sandbox {
+    display: block;
+}
+
+#happyforms-integration-toolbar {
+    margin-bottom: 15px;
+}
+
+#happyforms-integration-toolbar .media-toolbar-secondary {
+    float: left;
+    margin-top: 11px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .media-toolbar-primary.search-form {
+        float: right;
+        max-width: 50%;
+    }
+}
